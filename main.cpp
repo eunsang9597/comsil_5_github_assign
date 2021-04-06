@@ -5,7 +5,7 @@ using namespace std;
 
 int main(void)
 {
-	cout<<"branch1 edit";
+	cout<<"branch2 edit";
 	int i,x,y;
 	Array a(10),b(5);
 	for(i=0;i<a.length();i++)
@@ -19,7 +19,7 @@ int main(void)
 	cout<<"a[0] ="<<x<<endl<<"b[0] ="<<y<<endl;
 
 	RangeArray c(-1,3),d(3,7);
-
+	
 	for(i=c.baseValue();i<=c.endValue();i++) c[i] = i*3;
 	for(i=d.baseValue();i<=d.endValue();i++) d[i] = i*4;
 	cout<<"branch1 change";
